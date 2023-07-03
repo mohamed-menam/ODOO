@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="productproperties_id" model="ir.actions.act_window">
+        <field name="name">Fragrance Type</field>
+        <field name="res_model">darbelal.productproperties</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <record id="productproperties_tree" model="ir.ui.view">
+        <field name="name">Fragrance Type</field>
+        <field name="model">darbelal.productproperties</field>
+        <field name="arch" type="xml">
+            <tree string="Master">
+                <field name="name" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="productproperties_from" model="ir.ui.view">
+        <field name="name">Fragrance Type</field>
+        <field name="model">darbelal.productproperties</field>
+        <field name="arch" type="xml">
+            <form string="Master">
+                <sheet>
+                    <group col="2">
+                        <field name="name" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <menuitem name="Fragrance Type" id="productproperties_menu_id" parent="Master_Data_id"
+        action="productproperties_id" sequence="10" />
+
+
+</odoo>

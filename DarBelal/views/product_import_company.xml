@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="productimportcompany_id" model="ir.actions.act_window">
+        <field name="name">product import company</field>
+        <field name="res_model">darbelal.productimportcompany</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <record id="productimportcompany_tree" model="ir.ui.view">
+        <field name="name">product import company</field>
+        <field name="model">darbelal.productimportcompany</field>
+        <field name="arch" type="xml">
+            <tree string="Master">
+                <field name="name" />
+
+            </tree>
+        </field>
+    </record>
+
+    <record id="productimportcompany_from" model="ir.ui.view">
+        <field name="name">product import company</field>
+        <field name="model">darbelal.productimportcompany</field>
+        <field name="arch" type="xml">
+            <form string="Master">
+                <sheet>
+                    <group col="2">
+                        <field name="name" />
+
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <menuitem name="product import company" id="productimportcompany_menu_id"
+        parent="Master_Data_id"
+        action="productimportcompany_id" sequence="10" />
+
+
+</odoo>

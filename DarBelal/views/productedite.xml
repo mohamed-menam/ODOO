@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <record id="product_template_only_form_view_inherit" model="ir.ui.view">
+        <field name="name">product.template.inherit</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view" />
+        <field name="arch" type="xml">
+            <field name="product_tag_ids" position="after">
+                <field name="x_similar_int_brand" />
+                <field name="x_manufacturer" widget='selection' />
+                <field name="x_exporting_company" widget='selection' />
+                <field name="x_import_company" widget='selection' />
+                <field name="x_fragrance_type" widget='selection' />
+                <field name="x_Volume" widget='selection' />
+                <field name="x_fragranc_for" widget='selection' />
+                <field name="x_retail_ratio" />
+                <field name="x_min_selling_price" />
+                <field name="country_of_origin" />
+                <field name="x_description" />
+
+
+            </field>
+        </field>
+    </record>
+
+
+    <record id="product_template_form_view_inherit" model="ir.ui.view">
+        <field name="name">product.template.inherit</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view" />
+        <field name="arch" type="xml">
+            <field name="expense_policy" position="after">
+                <field name="x_product_class" widget='selection' />
+                <field name="x_Product_sub_class" widget='selection' />
+                <field name="x_Brand" widget='selection' />
+                <field name="x_sub_brand" widget='selection' />
+                <field name="x_product_group" widget='selection' />
+                <field name="categ_id" />
+                <field name="x_product_segmentation" widget='selection' position="attributes" />
+
+
+            </field>
+        </field>
+    </record>
+
+
+</odoo>

@@ -1,0 +1,526 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* DarBelal
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20230329\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-07 17:36+0000\n"
+"PO-Revision-Date: 2023-06-07 17:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrand__name
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_Brand
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_Brand
+msgid "Brand"
+msgstr "البراند"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productcategory__name
+msgid "Category"
+msgstr "فئة المنتج"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_customertype__create_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_generatename__create_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrand__create_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrandowner__create_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productcategory__create_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productfragrancfor__create_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productimportcompany__create_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmadein__create_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmanufacturer__create_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productprisecategory__create_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productproperties__create_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubbrand__create_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubcategory__create_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productvolume__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_customertype__create_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_generatename__create_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrand__create_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrandowner__create_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productcategory__create_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productfragrancfor__create_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productimportcompany__create_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmadein__create_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmanufacturer__create_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productprisecategory__create_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productproperties__create_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubbrand__create_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubcategory__create_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productvolume__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_description
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_description
+msgid "Description"
+msgstr "الوصف و النوتات العطرية"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_customertype__display_name
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_generatename__display_name
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrand__display_name
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrandowner__display_name
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productcategory__display_name
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productfragrancfor__display_name
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productimportcompany__display_name
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmadein__display_name
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmanufacturer__display_name
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productprisecategory__display_name
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productproperties__display_name
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubbrand__display_name
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubcategory__display_name
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productvolume__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrandowner__name
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_exporting_company
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_exporting_company
+msgid "Exporting Company"
+msgstr "الشركة المصدرة"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_fragranc_for
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_fragranc_for
+msgid "For"
+msgstr "نوع العطر"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productfragrancfor__name
+msgid "Fragranc For"
+msgstr "نوع العطر"
+
+#. module: DarBelal
+#: model:ir.actions.act_window,name:DarBelal.productproperties_id
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_fragrance_type
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_fragrance_type
+#: model:ir.ui.menu,name:DarBelal.productproperties_menu_id
+msgid "Fragrance Type"
+msgstr "نوع العطر"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_generatename__name
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_generate_name
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_generate_name
+msgid "Generate Name"
+msgstr ""
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_customertype__id
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_generatename__id
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrand__id
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrandowner__id
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productcategory__id
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productfragrancfor__id
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productimportcompany__id
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmadein__id
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmanufacturer__id
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productprisecategory__id
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productproperties__id
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubbrand__id
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubcategory__id
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productvolume__id
+msgid "ID"
+msgstr ""
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productimportcompany__name
+msgid "Import Company"
+msgstr "الشركة المستوردة"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_import_company
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_import_company
+msgid "Importing Company"
+msgstr "الشركة المستوردة"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_customertype____last_update
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_generatename____last_update
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrand____last_update
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrandowner____last_update
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productcategory____last_update
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productfragrancfor____last_update
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productimportcompany____last_update
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmadein____last_update
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmanufacturer____last_update
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productprisecategory____last_update
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productproperties____last_update
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubbrand____last_update
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubcategory____last_update
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productvolume____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_customertype__write_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_generatename__write_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrand__write_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrandowner__write_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productcategory__write_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productfragrancfor__write_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productimportcompany__write_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmadein__write_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmanufacturer__write_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productprisecategory__write_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productproperties__write_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubbrand__write_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubcategory__write_uid
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productvolume__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_customertype__write_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_generatename__write_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrand__write_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productbrandowner__write_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productcategory__write_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productfragrancfor__write_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productimportcompany__write_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmadein__write_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmanufacturer__write_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productprisecategory__write_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productproperties__write_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubbrand__write_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubcategory__write_date
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productvolume__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmanufacturer__name
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_manufacturer
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_manufacturer
+msgid "Manufacturer"
+msgstr "المصنع"
+
+#. module: DarBelal
+#: model:ir.ui.menu,name:DarBelal.menu_finance
+#: model_terms:ir.ui.view,arch_db:DarBelal.customer_type_from
+#: model_terms:ir.ui.view,arch_db:DarBelal.customer_type_tree
+#: model_terms:ir.ui.view,arch_db:DarBelal.productbrand_from
+#: model_terms:ir.ui.view,arch_db:DarBelal.productbrand_tree
+#: model_terms:ir.ui.view,arch_db:DarBelal.productbrandowner_from
+#: model_terms:ir.ui.view,arch_db:DarBelal.productbrandowner_tree
+#: model_terms:ir.ui.view,arch_db:DarBelal.productcategory_from
+#: model_terms:ir.ui.view,arch_db:DarBelal.productcategory_tree
+#: model_terms:ir.ui.view,arch_db:DarBelal.productfragrancfor_from
+#: model_terms:ir.ui.view,arch_db:DarBelal.productfragrancfor_tree
+#: model_terms:ir.ui.view,arch_db:DarBelal.productimportcompany_from
+#: model_terms:ir.ui.view,arch_db:DarBelal.productimportcompany_tree
+#: model_terms:ir.ui.view,arch_db:DarBelal.productmadein_from
+#: model_terms:ir.ui.view,arch_db:DarBelal.productmadein_tree
+#: model_terms:ir.ui.view,arch_db:DarBelal.productmanufacturer_from
+#: model_terms:ir.ui.view,arch_db:DarBelal.productmanufacturer_tree
+#: model_terms:ir.ui.view,arch_db:DarBelal.productprisecategory_from
+#: model_terms:ir.ui.view,arch_db:DarBelal.productprisecategory_tree
+#: model_terms:ir.ui.view,arch_db:DarBelal.productproperties_from
+#: model_terms:ir.ui.view,arch_db:DarBelal.productproperties_tree
+#: model_terms:ir.ui.view,arch_db:DarBelal.productsubbrand_from
+#: model_terms:ir.ui.view,arch_db:DarBelal.productsubbrand_tree
+#: model_terms:ir.ui.view,arch_db:DarBelal.productsubcategory_from
+#: model_terms:ir.ui.view,arch_db:DarBelal.productsubcategory_tree
+#: model_terms:ir.ui.view,arch_db:DarBelal.productvolume_from
+#: model_terms:ir.ui.view,arch_db:DarBelal.productvolume_tree
+msgid "Master"
+msgstr "الرئيسيه"
+
+#. module: DarBelal
+#: model:ir.ui.menu,name:DarBelal.Master_Data_id
+msgid "Master Data"
+msgstr "البيانات الرئيسيه"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_min_selling_price
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_min_selling_price
+msgid "Min Selling Price"
+msgstr "اقل سعر بيع"
+
+#. module: DarBelal
+#: model:ir.model.fields,help:DarBelal.field_sale_order_line__price
+msgid "Price at which the product is sold to customers."
+msgstr "سعر البيع"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productprisecategory__name
+msgid "Prise Category"
+msgstr "فئة المنتج"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_product_template
+msgid "Product"
+msgstr "المنتج"
+
+#. module: DarBelal
+#: model:ir.actions.act_window,name:DarBelal.productcategory_id
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_product_class
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_product_class
+#: model:ir.ui.menu,name:DarBelal.productcategory_menu_id
+msgid "Product Class"
+msgstr "فئة المنتج"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productmadein__name
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_product_group
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_product_group
+msgid "Product Group"
+msgstr "مجموعة المنتج"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_product_segmentation
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_product_segmentation
+msgid "Product Segmentation"
+msgstr "شريحة المنتج"
+
+#. module: DarBelal
+#: model:ir.actions.act_window,name:DarBelal.productsubcategory_id
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_Product_sub_class
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_Product_sub_class
+#: model:ir.ui.menu,name:DarBelal.productsubcategory_menu_id
+msgid "Product Sub-Class"
+msgstr "التصنيف الفرعي للمنتج"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_Volume
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_Volume
+msgid "Product Volume"
+msgstr "الحجم"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_sale_order
+msgid "Sales Order"
+msgstr "أمر البيع"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "بند أمر المبيعات"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_similar_int_brand
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_similar_int_brand
+msgid "Similar Int. Brand"
+msgstr "البراند المماثل"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubbrand__name
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_sub_brand
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_sub_brand
+msgid "Sub Brand"
+msgstr "البراند الفرعي"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productsubcategory__name
+msgid "Sub Category"
+msgstr "التصنيف الفرعي للمنتج"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productproperties__name
+msgid "Type"
+msgstr "مخصص ل"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_productvolume__name
+msgid "Volume"
+msgstr "الحجم"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_retail_ratio
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_retail_ratio
+msgid "X Retail Ratio"
+msgstr "نسبة سعر التجزئه"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_res_partner__x_type_client
+#: model:ir.model.fields,field_description:DarBelal.field_res_users__x_type_client
+#: model:ir.model.fields,field_description:DarBelal.field_sale_order__x_type_client
+#: model:ir.model.fields,field_description:DarBelal.field_sale_order_line__x_type_client
+msgid "client type"
+msgstr " نوع العميل"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_customertype__name
+msgid "client_type"
+msgstr "نوع العميل"
+
+#. module: DarBelal
+#: model:ir.actions.act_window,name:DarBelal.customer_type_id
+#: model:ir.ui.menu,name:DarBelal.customer_type_menu_id
+msgid "customer type"
+msgstr "فرد"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_darbelal_customertype
+msgid "darbelal.customertype"
+msgstr "نوع العميل"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_darbelal_generatename
+msgid "darbelal.generatename"
+msgstr ""
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_darbelal_productbrand
+msgid "darbelal.productbrand"
+msgstr "البراند"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_darbelal_productbrandowner
+msgid "darbelal.productbrandowner"
+msgstr "الشركة المصدرة"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_darbelal_productcategory
+msgid "darbelal.productcategory"
+msgstr "فئة المنتج"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_darbelal_productfragrancfor
+msgid "darbelal.productfragrancfor"
+msgstr "نوع العطر"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_darbelal_productimportcompany
+msgid "darbelal.productimportcompany"
+msgstr "الشركة المستوردة"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_darbelal_productmadein
+msgid "darbelal.productmadein"
+msgstr "مجموعة المنتج"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_darbelal_productmanufacturer
+msgid "darbelal.productmanufacturer"
+msgstr "المصنع"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_darbelal_productprisecategory
+msgid "darbelal.productprisecategory"
+msgstr "شريحة المنتج"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_darbelal_productproperties
+msgid "darbelal.productproperties"
+msgstr "مخصص ل"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_darbelal_productsubbrand
+msgid "darbelal.productsubbrand"
+msgstr "البراند الفرعي"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_darbelal_productsubcategory
+msgid "darbelal.productsubcategory"
+msgstr "التصنيف الفرعي للمنتج"
+
+#. module: DarBelal
+#: model:ir.model,name:DarBelal.model_darbelal_productvolume
+msgid "darbelal.productvolume"
+msgstr "الحجم"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_sale_order__x_discount
+#: model:ir.model.fields,field_description:DarBelal.field_sale_order_line__discount_customer
+msgid "discount"
+msgstr " التخفيض"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_darbelal_customertype__discount
+#: model:ir.model.fields,field_description:DarBelal.field_res_partner__x_discount
+#: model:ir.model.fields,field_description:DarBelal.field_res_users__x_discount
+msgid "discount percentage"
+msgstr "نسبة الخصم"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_generate_name_
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_generate_name_
+msgid "name ProductId"
+msgstr ""
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_sale_order_line__price
+#: model:ir.model.fields,field_description:DarBelal.field_sale_order_line__x_min_selling_price
+msgid "price"
+msgstr "السعر"
+
+#. module: DarBelal
+#: model:ir.actions.act_window,name:DarBelal.productbrand_id
+#: model:ir.ui.menu,name:DarBelal.productbrand_menu_id
+msgid "product Brand"
+msgstr "البراند"
+
+#. module: DarBelal
+#: model:ir.actions.act_window,name:DarBelal.productmanufacturer_id
+#: model:ir.ui.menu,name:DarBelal.productmanufacturer_menu_id
+msgid "product Manufacturer"
+msgstr "المصنع"
+
+#. module: DarBelal
+#: model:ir.actions.act_window,name:DarBelal.productprisecategory_id
+#: model:ir.ui.menu,name:DarBelal.productprisecategory_menu_id
+msgid "product Prise Category"
+msgstr "شريحة المنتج"
+
+#. module: DarBelal
+#: model:ir.actions.act_window,name:DarBelal.productvolume_id
+#: model:ir.ui.menu,name:DarBelal.productvolume_menu_id
+msgid "product Volume"
+msgstr "الحجم"
+
+#. module: DarBelal
+#: model:ir.actions.act_window,name:DarBelal.productbrandowner_id
+#: model:ir.ui.menu,name:DarBelal.productbrandowner_menu_id
+msgid "product brand owner"
+msgstr "الشركة المصدرة"
+
+#. module: DarBelal
+#: model:ir.actions.act_window,name:DarBelal.productfragrancfor_id
+#: model:ir.ui.menu,name:DarBelal.productfragrancfor_menu_id
+msgid "product fragranc for"
+msgstr "نوع العطر"
+
+#. module: DarBelal
+#: model:ir.actions.act_window,name:DarBelal.productimportcompany_id
+#: model:ir.ui.menu,name:DarBelal.productimportcompany_menu_id
+msgid "product import company"
+msgstr "الشركة المستوردة"
+
+#. module: DarBelal
+#: model:ir.actions.act_window,name:DarBelal.productmadein_id
+#: model:ir.ui.menu,name:DarBelal.productmadein_menu_id
+msgid "product made in"
+msgstr "مجموعة المنتج"
+
+#. module: DarBelal
+#: model:ir.actions.act_window,name:DarBelal.productsubbrand_id
+#: model:ir.ui.menu,name:DarBelal.productsubbrand_menu_id
+msgid "product sub brand"
+msgstr "البراند الفرعي"
+
+#. module: DarBelal
+#: model:ir.model.fields,field_description:DarBelal.field_product_product__x_x_x
+#: model:ir.model.fields,field_description:DarBelal.field_product_template__x_x_x
+msgid "x_x_x"
+msgstr ""

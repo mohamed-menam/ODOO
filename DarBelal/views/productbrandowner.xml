@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="productbrandowner_id" model="ir.actions.act_window">
+        <field name="name">product brand owner</field>
+        <field name="res_model">darbelal.productbrandowner</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <record id="productbrandowner_tree" model="ir.ui.view">
+        <field name="name">product brand owner</field>
+        <field name="model">darbelal.productbrandowner</field>
+        <field name="arch" type="xml">
+            <tree string="Master">
+                <field name="name" />
+
+            </tree>
+        </field>
+    </record>
+
+    <record id="productbrandowner_from" model="ir.ui.view">
+        <field name="name">product brand owner</field>
+        <field name="model">darbelal.productbrandowner</field>
+        <field name="arch" type="xml">
+            <form string="Master">
+                <sheet>
+                    <group col="2">
+                        <field name="name" />
+
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <menuitem name="product brand owner" id="productbrandowner_menu_id" parent="Master_Data_id"
+        action="productbrandowner_id" sequence="10" />
+
+
+</odoo>

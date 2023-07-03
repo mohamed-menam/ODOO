@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="generatename_id" model="ir.actions.act_window">
+        <field name="name">Generate Name</field>
+        <field name="res_model">darbelal.generatename</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <record id="generatename_tree" model="ir.ui.view">
+        <field name="name">Generate Name</field>
+        <field name="model">darbelal.generatename</field>
+        <field name="arch" type="xml">
+            <tree string="Master">
+                <field name="name" />
+
+            </tree>
+        </field>
+    </record>
+
+    <record id="generatename_from" model="ir.ui.view">
+        <field name="name">Generate Name</field>
+        <field name="model">darbelal.generatename</field>
+        <field name="arch" type="xml">
+            <form string="Master">
+                <sheet>
+                    <group col="2">
+                        <field name="name" />
+
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <menuitem name="Generate Name" id="generatename_menu_id" parent="Master_Data_id"
+        action="generatename_id" sequence="10" />
+
+
+</odoo>

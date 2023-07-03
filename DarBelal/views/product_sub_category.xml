@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="productsubcategory_id" model="ir.actions.act_window">
+        <field name="name">Product Sub-Class</field>
+        <field name="res_model">darbelal.productsubcategory</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <record id="productsubcategory_tree" model="ir.ui.view">
+        <field name="name">Product Sub-Class</field>
+        <field name="model">darbelal.productsubcategory</field>
+        <field name="arch" type="xml">
+            <tree string="Master">
+                <field name="name" />
+
+            </tree>
+        </field>
+    </record>
+
+    <record id="productsubcategory_from" model="ir.ui.view">
+        <field name="name">Product Sub-Class</field>
+        <field name="model">darbelal.productsubcategory</field>
+        <field name="arch" type="xml">
+            <form string="Master">
+                <sheet>
+                    <group col="2">
+                        <field name="name" />
+
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <menuitem name="Product Sub-Class" id="productsubcategory_menu_id" parent="Master_Data_id"
+        action="productsubcategory_id" sequence="10" />
+
+
+</odoo>

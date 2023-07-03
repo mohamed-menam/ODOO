@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="customer_type_id" model="ir.actions.act_window">
+        <field name="name">customer type</field>
+        <field name="res_model">darbelal.customertype</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <record id="customer_type_tree" model="ir.ui.view">
+        <field name="name">customer type</field>
+        <field name="model">darbelal.customertype</field>
+        <field name="arch" type="xml">
+            <tree string="Master">
+                <field name="name" />
+                <field name="discount" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="customer_type_from" model="ir.ui.view">
+        <field name="name">customer type</field>
+        <field name="model">darbelal.customertype</field>
+        <field name="arch" type="xml">
+            <form string="Master">
+                <sheet>
+                    <group col="2">
+                        <field name="name" />
+                        <field name="discount" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <menuitem name="Master" id="menu_finance" sequence="10" />
+    <menuitem name="Master Data" id="Master_Data_id" parent="DarBelal.menu_finance"
+        action="customer_type_id" sequence="10" />
+    <menuitem name="customer type" id="customer_type_menu_id" parent="Master_Data_id"
+        action="customer_type_id" sequence="10" />
+
+
+</odoo>

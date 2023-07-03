@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="productvolume_id" model="ir.actions.act_window">
+        <field name="name">product Volume</field>
+        <field name="res_model">darbelal.productvolume</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <record id="productvolume_tree" model="ir.ui.view">
+        <field name="name">product Volume</field>
+        <field name="model">darbelal.productvolume</field>
+        <field name="arch" type="xml">
+            <tree string="Master">
+                <field name="name" />
+
+            </tree>
+        </field>
+    </record>
+
+    <record id="productvolume_from" model="ir.ui.view">
+        <field name="name">product Volume</field>
+        <field name="model">darbelal.productvolume</field>
+        <field name="arch" type="xml">
+            <form string="Master">
+                <sheet>
+                    <group col="2">
+                        <field name="name" />
+
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <menuitem name="product Volume" id="productvolume_menu_id" parent="Master_Data_id"
+        action="productvolume_id" sequence="10" />
+
+
+</odoo>

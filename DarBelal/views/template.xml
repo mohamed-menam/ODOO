@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <template id="product_quick_view_extended" inherit_id="website_sale.product">
+        <xpath expr="//t[@t-call='website.layout']" position="inside">
+            <xpath>
+                <span t-field="product.x_fragranc_for.name" />
+                <span t-field="product.x_Volume.name" />
+                <span t-field="product.x_category.name" />
+                <span t-field="product.x_Brand.name" />
+                <span t-field="product.x_sub_brand.name" />
+                <span t-field="product.x_prise_category.name" />
+            </xpath>
+        </xpath>
+    </template>
+
+
+</odoo>
