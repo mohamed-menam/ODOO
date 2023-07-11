@@ -16,7 +16,8 @@
         "account",
         "l10n_generic_coa",
         "website",
-        'website_sale'
+        'website_sale',
+        'hr'
     ],
     "data": [
         "security/ir.model.access.csv",
@@ -38,6 +39,7 @@
         "views/productbrandowner.xml",
         # "views/generatename.xml",
         "views/product_import_company.xml",
+        "views/employee.xml"
     ],
     "demo": [],
     "installable": True,

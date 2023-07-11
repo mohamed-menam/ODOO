@@ -3,28 +3,26 @@
     <data>
 
         <record id="hr_employee_insurance_form" model="ir.ui.view">
-        <field name="name">hr.employee.Insurance_form</field>
-        <field name="model">hr.employee</field>
-        <field name="inherit_id" ref="hr.view_employee_form"/>
-        <field name="arch" type="xml">
-            <xpath expr="//page[@name='hr_settings']" position="after">
-                <page name="insurance" string="Insurance">
-                    <group>
+            <field name="name">hr.employee.Insurance_form</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//page[@name='hr_settings']" position="after">
+                    <page name="insurance" string="Insurance">
                         <group>
-                            <field name="insurance_percentage">%</field>
+                            <group>
+                                <field name="insurance_percentage">%</field>
+                            </group>
+                            <group>
+                                <field name="deduced_amount_per_year" />
+                                <field name="deduced_amount_per_month" />
+                            </group>
                         </group>
-                        <group>
-                            <field name="deduced_amount_per_year"/>
-                            <field name="deduced_amount_per_month"/>
-                        </group>
-                    </group>
-                    <field name="insurance" context="{'default_employee_id':id}"/>
-                </page>
-            </xpath>
-        </field>
-    </record>
-
-
+                        <field name="insurance" context="{'default_employee_id':id}" />
+                    </page>
+                </xpath>
+            </field>
+        </record>
 
 
         <record id="employee_insurance__details_form" model="ir.ui.view">
@@ -32,29 +30,44 @@
             <field name="model">hr.insurance</field>
             <field name="arch" type="xml">
                 <form string="Employee Insurance">
+
                     <header>
-                     <field name="state" widget="statusbar" statusbar_visible="active,expired"/>
+                        <button id="id-idi" name="weight_employee" type="object"
+                            class="btn-primary"
+                            string='lock' states='draft' />
+
+                        <button id="id-idjkdki" name="weight_unlock" type="object"
+                            class="btn-primary"
+                            string='unlock' states='confirm' />
+                        <field name="state" widget="statusbar" statusbar_visible="draft,confirm" />
                     </header>
+
                     <sheet>
                         <!--<header>-->
-                            <!--<field name="state" class="oe_no_button" placeholder="State" style="width: 37%%" options='{"no_open": True}'/>-->
+                        <!--<field
+                        name="state" class="oe_no_button" placeholder="State" style="width: 37%%"
+                        options='{"no_open": True}'/>-->
                         <!--</header>-->
                         <group>
                             <group>
-                                <field name="employee_id"/>
-                                <field name="policy_coverage"/>
-                                <label for="date_from" string="Policy Period"/>
-			<div>
-				<field name="date_from" class="oe_inline" on_change="1" modifiers="{'readonly': [['state', 'not in', ['draft']]], 'required': true}"/>
-				  -
-				<field name="date_to" class="oe_inline" on_change="1" modifiers="{'readonly': [['state', 'not in', ['draft']]], 'required': true}"/>
-			</div>
+                                <field name="employee_id" />
+                                <field name="policy_coverage" />
+                                <label for="date_from" string="Policy Period" />
+                                <div>
+                                    <field name="date_from" class="oe_inline" on_change="1"
+                                        modifiers="{'readonly': [['state', 'not in', ['draft']]], 'required': true}" />
+                                    - <field name="date_to" class="oe_inline" on_change="1"
+                                        modifiers="{'readonly': [['state', 'not in', ['draft']]], 'required': true}" />
+                                </div>
+                                <field name="employee_percentage"
+                                    attrs="{'readonly':[('state','=', 'confirm')]}" />
+                                <field name="result" />
                             </group>
                             <group>
-                                <field name="policy_id"/>
-                                <field name="sum_insured"/>
-                                <field name="amount"/>
-                                <field name="company_id"/>
+                                <field name="policy_id" />
+                                <field name="sum_insured" />
+                                <field name="amount" attrs="{'readonly':[('state','=', 'confirm')]}" />
+                                <field name="company_id" />
                             </group>
                         </group>
 
@@ -67,14 +80,15 @@
             <field name="model">hr.insurance</field>
             <field name="arch" type="xml">
                 <tree string="Employee Insurance">
-                     <field name="employee_id"/>
-                    <field name="policy_id"/>
-                    <field name="policy_coverage"/>
-                    <field name="sum_insured"/>
-                    <field name="amount"/>
+                    <field name="employee_id" />
+                    <field name="policy_id" />
+                    <field name="policy_coverage" />
+                    <field name="sum_insured" />
+                    <field name="amount" />
                     <field name="date_from" />
-				<field name="date_to"/>
-                    <field name="company_id"/>
+                    <field name="date_to" />
+                    <field name="company_id" />
+                    <field name="employee_percentage" />
                 </tree>
             </field>
         </record>
@@ -90,9 +104,9 @@
         </record>
 
         <menuitem
-                id="hr_employee_insurance_menu"
-                name="Insurance"
-                parent="hr.menu_hr_root"
-                action="action_employee_insurance_details"/>
+            id="hr_employee_insurance_menu"
+            name="Insurance"
+            parent="hr.menu_hr_root"
+            action="action_employee_insurance_details" />
     </data>
 </odoo>

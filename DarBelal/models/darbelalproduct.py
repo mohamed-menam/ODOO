@@ -248,3 +248,11 @@ class SaleOrderLine(models.Model):
         )
 
 
+class Employee(models.Model):
+    _inherit = "hr.employee"
+
+    x_weight = fields.Integer(string="Assigned Goals", readonly=True)
+    x_total_weighted_score = fields.Integer(
+        string="Total Weighted Score", readonly=True
+    )
+

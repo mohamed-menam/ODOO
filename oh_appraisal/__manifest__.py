@@ -38,6 +38,7 @@
         "views/hr_appraisal_survey_views.xml",
         "views/hr_appraisal_form_view.xml",
         "data/hr_appraisal_stages.xml",
+        "views/goal_apprasial.xml",
     ],
     "demo": ["data/demo_data.xml"],
     "images": ["static/description/banner.png"],
