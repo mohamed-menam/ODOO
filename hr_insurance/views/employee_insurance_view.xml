@@ -10,9 +10,9 @@
                 <xpath expr="//page[@name='hr_settings']" position="after">
                     <page name="insurance" string="Insurance">
                         <group>
-                            <group>
+                            <!-- <group>
                                 <field name="insurance_percentage">%</field>
-                            </group>
+                            </group> -->
                             <group>
                                 <field name="deduced_amount_per_year" />
                                 <field name="deduced_amount_per_month" />
